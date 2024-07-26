@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- *************************Navbar************************* -->
+    <header class="header">
+        <a href="#" class="logo"></a>
+        <i class='bx bx-menu' id="menu" style='color:#ffffff'></i>
+        <nav class="navbar">
+            <a href="#home" style="--vlr:1" class="active">Home</a>
+            <a href="#about" style="--vlr:2">About Me</a>
+            <a href="#education" style="--vlr:3">Education</a>
+            <a href="#skills" style="--vlr:4">Skills</a>
+            <a href="#contact" style="--vlr:5">Contact Me</a>
+        </nav>
+    </header>
+    <!-- *************************Home Section************************* -->
+    <section class="home"  id="home">
+        <div class="text-content">
+            <h1>I'm Bhuvaneswari Maredu</h1>
+            <div class="text-animation">
+                <h2>Student & Engineer</h2>
+            </div>
+    <p>E^2 = Explore Everything! </p>
+    <p>Seeking challenging opppurtunities to enhance my skills.</p>
+            <div class="btn-section">
+                <a href= "https://flowcv.com/resume/jq26pmj9m8" class="btn">Hire me</a>
+                <a href="https://wa.me/7981963421" class="btn">Let's Talk</a>
+            </div>
+            <div class="social-media">
+        <a href= "https://www.linkedin.com/in/bhuvaneswari-maredu-602105253">
+        <i class='bx bxl-linkedin' style="--vlr:7"></i></a>
+        <a href= "https://github.com/BhuvaneswariMaredu">
+        <i class='bx bxl-github' style="--vlr:8"></i></a>
+        <a href= "https://instagram.com/bhuvana._.07_">
+        <i class='bx bxl-instagram' style="--vlr:9"></i></a>
+            </div>
+        </div>
+        <img src="Ppwbhu.png" alt="">
+    </section>
+    <!-- *************************About Section************************* -->
+    <section class="about" id="about">
+        <h2 class="title">About <span>Me</span></h2>
+        <img src="Ppwbhu.png" alt="" class="aboutImg">
+        <div class="text-content2">
+            <h2>Student & Engineer</h2>
+    <p>E^2 = Explore Everything! </p>
+    <p>Seeking Challenging oppurtunities to enhance my skills. </p>
+        </div>
+    </section>
+    <!-- *************************Education Section************************* -->
+    <section class="education" id="education">
+        <h2 class="title">My <span>Education</span></h2>
+        <div class="row">
+            <div class="column">
+                <h2>Education</h2>
+                <div class="box">
+                    <div class="education-content">
+                        <div class="content">
+    <div class="year">2021-Present<i class='bx bxs-calendar'></i></div>
+    <h3>SRKR Engineering College</h3>
+    <p>Computer Science and Business Systems</p> <p>CGPA: 8.77</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+        <div class="year">2019-2021 <i class='bx bxs-calendar'></i></div>
+                            <h3>Tirumala Mahila Junior Kalasala</h3>
+    <p>Mathematics, Physics and Chemistry</p> <p>Percentage: 94.3% </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+    <div class="content">
+        <div class="year">2018-2019 <i class='bx bxs-calendar'></i></div>
+        <h3>Prathibha (E.M.) high School</h3>
+        <p>CGPA: 10.0</p>
+    </div>
+    </section>
+    <!-- *************************Skills Section************************* -->
+    <section class="skills" id="skills">
+        <h2 class="title">My <span>Skills</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Language</h3>
+                <div class="skill-box skill-box1">
+                    <div class="single-skill">
+                        <span class="topic">HTML</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">CSS</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Python</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-4"></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- *************************Contact Section************************* -->
+    <section class="contact" id="contact">
+        <h2 class="title">Contact<span>Me</span></h2>
+        <form action="#" id="">
+            <div class="input-box">
+    <input type="text" required placeholder="Full Name">
+    <input type="email" required placeholder="Email">
+            </div>
+            <div class="input-box">
+    <input type="tel" required placeholder="Mobile Number">
+    <input type="email" required placeholder="Subject For">
+            </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+    <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+    <footer>
+        <div class="text">
+            <p>Copyright @ 2024 by Bhuvaneswari Maredu</p>
+        </div>
+       <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
